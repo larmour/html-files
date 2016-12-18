@@ -87,20 +87,130 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+h1,h2,h3,h4,h5,h6 {
+    font-family: Sans-Serif;
+}
+h1{font-size: 200%}
+h2{font-size: 180%}
+h3{font-size: 160%}
+h4{font-size: 140%}
+h5{font-size: 120%}
+h6{font-size: 100%}
 
+p {
+    font-family: Serif;
+}
 
+.color1 {
+   background-color: //type in hex;
+}
+//color for the a tags
+.color1 a {
+   color: #FFFFFF;
+}
+.color2 {
+   background-color:
+   color
+}
+#wrapper {
+   width: 960px;
+   margin-left: auto;
+   margin-right: auto;
+   border: 1px solid;
 
+}
+#header {
+   background-color:#DFF2F6;
+   height: 88px;
+   line-height: 86px;
+}
+#logo {
+   background-color: #DFF2F6;
+   width: 367px;
+   float: left;
+}
+#menu {
+   width: 562px;
+   float: left;
+   text-align: right;
+   padding-right: 31px;
+}
+#menu a{
+   font-family: sans-serif;
+   font-size: 20px;
+}
+#menu ul {
+   margin: 0px;
+   padding: 0px;
+}
+#menu li {
+   display: inline;
+}
+#logo img{
+   height: 86px;
+   width: 86px;
+   padding-left: 20px;
+}
+#callout1, #callout2, #callout3 {
+   background-color: #9AC7F2;
+   height: 121.6px;
+   float: left;
+   width: 320px;
+   text-align: -webkit-center;
+}
+#banner {
+   background-size: 100% 100%;
+   clear: both;
+   background-color: #4879BE;
+   height: 366px;
+   line-height: 366px;
+   padding-left: 31px;
+   padding-right: 31px;
+   background-image: url('../img/runner-2.jpg')
 
-
-
-
-
-
-
-
-
-
-
+}
+#banner h1{
+   margin: 0px;
+   text-align: -webkit-left;
+}
+#footer {
+   background-color: #4879BE;
+   clear: both;
+}
+#content {
+  height: 593px;
+  margin-top:91px;
+}
+.main_content {
+  width: 545px;
+  padding-left: 24px;
+  padding-right: 24px;
+  float: left;
+  font-size: 19px;
+  line-height: 28px;
+}
+.float-left-area {
+  width: 545px;
+  float: left;
+  padding: 5px 24px;
+}
+.inner-left {
+  padding: 5px 24px 5px 24px;
+  margin-right: 10px;
+  border: #999999 0px solid;
+  min-height: 60px;
+}
+#History h2 {
+  margin-left: 24px;
+}
+.float-right-area {
+   width: 367px;
+   float: left;
+}
+.inner-right {
+   padding: 5px 5px 5px 5px;
+   min-height: 60px;
+}
 
 
 
